@@ -10,7 +10,6 @@ import java.util.*;
 public class UserManagementServiceImpl implements UserManagementService {
 	
 	private UserDao userDao;
-	private String id;
 	
 	public UserManagementServiceImpl(UserDao userDao) {
 		this.userDao = userDao;
